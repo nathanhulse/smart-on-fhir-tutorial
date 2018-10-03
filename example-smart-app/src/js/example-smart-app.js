@@ -84,6 +84,7 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
+      testthing: {value: ''},
     };
   }
 
@@ -127,6 +128,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+    $('#testthing').html(p.testthing);
   };
 
 })(window);
