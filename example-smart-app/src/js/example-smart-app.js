@@ -16,6 +16,7 @@
           category: 'problem',
           clinicalstatus: 'active'
         });
+        alert('snappy, bro!');
         alert(testthing);
         
         var obv = smart.patient.api.fetchAll({
