@@ -16,7 +16,7 @@
           category: 'problem',
           clinicalstatus: 'active'
         });
-        alert('snappy, bro!');
+        alert('snappy indeed, bro!');
         var testthingtext = JSON.stringify(testthing);
         alert(testthingtext);
         
