@@ -17,7 +17,7 @@
           clinicalstatus: 'active'
         });
         console.log(testthing);
-        alert('snappy indeed, broham!');
+        alert('fresh code, yo');
         var testthingtext = String(testthing);
         alert(testthingtext);
         
