@@ -17,7 +17,7 @@
           clinicalstatus: 'active'
         });
         alert('snappy indeed, bro!');
-        var testthingtext = JSON.stringify(testthing);
+        var testthingtext = String(testthing);
         alert(testthingtext);
         
         var obv = smart.patient.api.fetchAll({
