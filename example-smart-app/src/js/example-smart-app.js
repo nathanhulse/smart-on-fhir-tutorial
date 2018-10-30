@@ -16,6 +16,7 @@
           category: 'problem',
           clinicalstatus: 'active'
         });
+        console.log(testthing);
         alert('snappy indeed, broham!');
         var testthingtext = String(testthing);
         alert(testthingtext);
@@ -57,6 +58,7 @@
           p.fname = fname;
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
+          p.address1 =  patient.address[0].city;
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
@@ -92,7 +94,7 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
-      testthing: {value: ''},
+      address1: {value: ''},
     };
   }
 
@@ -136,7 +138,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
-    $('#testthing').html(p.testthing);
+    $('#address1').html(p.address1);
   };
 
 })(window);
