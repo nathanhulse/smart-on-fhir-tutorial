@@ -16,7 +16,7 @@
           category: 'problem',
           clinicalstatus: 'active'
         });
-        alert('snappy indeed, bro!');
+        alert('snappy indeed, broham!');
         var testthingtext = String(testthing);
         alert(testthingtext);
         
