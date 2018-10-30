@@ -12,10 +12,10 @@
         var patient = smart.patient;
         var pt = patient.read();
         var testthing = smart.patient.api.fetchAll({
-  type: 'Condition',
-  category: 'problem',
-  clinicalstatus: 'active'
-});
+          type: 'Condition',
+          category: 'problem',
+          clinicalstatus: 'active'
+        });
         
         var obv = smart.patient.api.fetchAll({
                     type: 'Observation',
