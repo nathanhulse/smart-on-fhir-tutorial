@@ -16,9 +16,9 @@
           category: 'problem',
           clinicalstatus: 'active'
         });
-        console.log(testthing[0]);
+        //console.log(testthing[0]);
         alert('fresh code, yo');
-        var testthingtext = String(testthing);
+        //var testthingtext = String(testthing);
         var checkthis = testthing.entry[0].resource.code.text;
         alert(checkthis);
         
