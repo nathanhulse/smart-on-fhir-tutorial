@@ -17,9 +17,10 @@
           clinicalstatus: 'active'
         });
         //console.log(testthing[0]);
-        alert('fresh code, yo');
+        alert('fresh code, yo dawg');
         //var testthingtext = String(testthing);
-        var checkthis = testthing.entry[0].resource.code.text;
+        //var checkthis = testthing.entry[0].resource.code.text;
+        var checkthis = testthing.type;
         alert(checkthis);
         
         var obv = smart.patient.api.fetchAll({
