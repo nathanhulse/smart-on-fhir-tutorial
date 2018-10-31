@@ -16,10 +16,11 @@
           category: 'problem',
           clinicalstatus: 'active'
         });
-        console.log(testthing);
+        console.log(testthing[0]);
         alert('fresh code, yo');
         var testthingtext = String(testthing);
-        alert(testthingtext);
+        var checkthis = testthing.entry[0].resource.code.text;
+        alert(checkthis);
         
         var obv = smart.patient.api.fetchAll({
                     type: 'Observation',
