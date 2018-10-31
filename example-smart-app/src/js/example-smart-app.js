@@ -17,7 +17,7 @@
           clinicalstatus: 'active'
         });
         //console.log(testthing[0]);
-        alert('fresh code, yo dawg');
+        alert('oh snap!');
         //var testthingtext = String(testthing);
         //var checkthis = testthing.entry[0].resource.code.text;
         var checkthis = testthing.type;
